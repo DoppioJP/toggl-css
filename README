@@ -1,0 +1,5 @@
+A set of CSS definitions to adjust layout of tasks list on Project edit view in Toggl web app. 
+
+The layout of that table (#planned-tasks) is a bit off in terms of readability of the tasks and their progress. The Description column is too narrow. The time and percentage columns are wrapped. 
+
+So I created few CSS definitions which work for me in Safari web browser. To find out how you could apply those styles in Safari, go to Safari preferences > Advanced tab > select Style sheet drop down. There you need to select a .css file which would contain the definitions. Feel free to grab that file (projects.css) and apply it there or add another section of CSS definitions to a file which you already use in Safari.

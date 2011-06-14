@@ -1,0 +1,14 @@
+/* Task times: PLANNED (3rd), DONE (4th) and PROGRESS % (7th) columns shouldn't really wrap */
+.tasktimer #planned-tasks tbody tr td:nth-child(3), #planned-tasks tbody tr td:nth-child(4), #planned-tasks tbody tr td:nth-child(7) {
+    white-space: nowrap;
+}
+
+/* Task Description 5th column*/
+.tasktimer #planned-tasks tbody tr td:nth-child(5) {
+    width: 60%;
+}
+
+/* To make the screen with tasks list wider, not only 950px */
+body.tasktimer div.fixed-width-content {
+    max-width: 90% !important;
+}
